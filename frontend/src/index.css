@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "poppins";
+}
+/* .login-form {
+  width: 0%;
+  height: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+.login-form-grid {
+  max-width: 70vw;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 12px 32px 0 rgba(31, 38, 135, 0.37);
+  border-radius: 5px;
+}
+.login-grid-item-two,
+.login-grid-item-one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+.main-grid-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-grid-item-two {
+  background-color: #6b62ff;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+.login-form-stack {
+  backdrop-filter: blur(4px);
+  border-radius: 10px;
+  padding: 3rem 2rem;
+}
+.navbar-contanier {
+  box-shadow: 0 8px 12px 0 rgba(31, 38, 135, 0.37);
+  padding: 3rem 1rem;
+  height: 100%;
+  background: rgb(10, 0, 36);
+  background: linear-gradient(
+    222deg,
+    rgba(10, 0, 36, 1) 0%,
+    rgba(59, 9, 121, 1) 45%,
+    rgba(10, 0, 36, 1) 100%
+  );
+  display: flex;
+  flex-direction: column;
+}
+.navbar-link {
+  padding: 0.7rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+.navbar-link:last-child {
+  margin-top: auto;
+}
+.dashboard {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.active {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 2px 12px 0 rgba(31, 38, 135, 0.37);
+}
+.outlet-container {
+  padding: 0 2rem;
+}
+.outlet {
+  background-color: #efefef;
+}
+.requests-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.single-request-container {
+  width: 100%;
+  display: flex;
+  background-color: #003a57;
+  gap: 2rem;
+  padding: 2rem 1rem;
+  color: white;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+.single-request-button-wrapper {
+  display: flex;
+  gap: 2rem;
+}
+.student-details-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0.6rem 0.8rem;
+  background-color: rgb(231, 231, 231);
+  margin-bottom: 0.2rem;
+  border-radius: 5px;
+}
+.status-container {
+  background-color: rgb(255, 221, 0);
+  max-width: fit-content;
+  border-radius: 35px;
+  padding: 0.8rem;
+}
+.course-details-buttons-wrapper {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem 0;
+  flex-wrap: wrap;
+}
+.outer-container-profile {
+  height: 100vh;
+  /* width: 100vw; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
